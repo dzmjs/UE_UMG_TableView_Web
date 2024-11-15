@@ -1,5 +1,5 @@
 # UE_UMG_TableView_Web
-This smart asset is designed for UE projects and is a UMG (Unreal Motion Graphics) smart asset. It displays JSON data in a table format and allows dynamic configuration of parameters, enabling the display of different tables based on the configuration.
+This smart asset is designed for UE projects and is a UMG (Unreal Motion Graphics) smart asset. It displays JSON data in a table format and allows dynamic configuration of parameters, enabling the display of different tables based on the configuration.  
 ![demo_field.png](./image/demo.png)
 
 [中文](README_CN.md) | [English](README.md) 
@@ -13,12 +13,13 @@ This smart asset is designed for UE projects and is a UMG (Unreal Motion Graphic
 ## Prerequisites
 - Unreal Engine version: 5.4
 - Plugin: Enable `vaRest`
+- web server support json: `Java Spring Boot` or `Python http.server`
 
 ## Installation
 1. Clone this repository or download the `UMG_TableView_Web` package.  
    `git clone <url>`
 2. Import the resources into your UE project.
-3. Create or modify a UMG Widget and add the `UMG_TableView_Web` component to display the table. You can also refer to the Level provided in the project named 'demo'.
+3. Create or modify a UMG Widget and add the `UMG_TableView_Web` component to display the table. You can also refer to the Level provided in the project named 'tableView.umap'.
 4. Adjust the parameters as needed.
 
 ## Usage
@@ -86,5 +87,5 @@ For example, two entities: `Person` (P) and `Gender` (G), with the following dat
 - `P = {name: 'name1', gender: 0, age: 20, height: 175}`
 - `G = [{code: 0, nm: 'Female'}, {code: 1, nm: 'Male'}]`
 
-In UE, create two structs corresponding to these objects. Then, in `table > Show Field Set`, add an item for the `gender` field. When displaying the gender, configure it as `gender.nm`, using the dot notation to reference the foreign key.
+In UE, create two structs corresponding to these objects. Then, in `table > Show Field Set`, add an item for the `gender` field. When displaying the gender, configure it as `gender.nm`, using the dot notation to reference the foreign key.  
 ![demo_field.png](./image/demo_field.png)
