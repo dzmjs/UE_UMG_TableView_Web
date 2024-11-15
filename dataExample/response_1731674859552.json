@@ -1,0 +1,43 @@
+{
+  "list": [
+    {
+      "stcd": "12345678",
+      "stnm": "XX水库",
+      "rvnm": "XX河",
+      "hnnm": "南运河",
+      "bsnm": "海河",
+      "lgtd": 112.073,
+      "lttd": 36.942,
+      "stlc": "XX水库",
+      "moditime": 1598412720000
+    },
+    {
+      "stcd": "12345679",
+      "stnm": "X河",
+      "rvnm": "X城河",
+      "hnnm": "南运河",
+      "bsnm": "海河",
+      "lgtd": 118.14,
+      "lttd": 39.942,
+      "stlc": "上横河村",
+      "moditime": 1598412720000
+    },
+    {
+      "stcd": "12345668",
+      "stnm": "石桥",
+      "rvnm": "漳子河",
+      "hnnm": "南运河",
+      "bsnm": "海河",
+      "lgtd": 118.314,
+      "lttd": 39.4583,
+      "stlc": "潞梁村",
+      "addvcd": "980406",
+      "dtmnm": "黄海",
+      "moditime": 1601431320000
+    }
+  ],
+  "total": 805,
+  "pageNum": 1,
+  "pageSize": 4,
+  "pageTotal": 202
+}
